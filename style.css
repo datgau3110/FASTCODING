@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main{
+    width: 100%;
+}
+.logo{
+    padding-left: 40px;
+}
+.logo-text{
+    font-size: 45px;
+    color: #fff;
+    font-weight: 600;
+}
+.logo-text-span{
+    color: rgb(255, 128, 0);
+    font-weight: 300;
+    font-size: 45px
+}
+.menu{
+    padding-right: 40px;
+}
+.nav-item{
+    padding: 0 20px;
+}
+ .content-box{
+    height: 550px;
+ }
+.content-getstart{
+    background-image: url(./assets/image-1.jpg);
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.getstart-form{
+    padding-right: 40px;
+}
+.detail-title{
+    padding: 100px 45px;
+}
+.detail-title .text-title{
+    font-weight: 600;
+    font-size: 100px;
+}
+.detail-title .text-title-fw{
+    color: rgb(255, 128, 0);
+    font-weight: 300;
+    font-size: 100px;
+}
+.detail-title .line{
+    background: #fff;
+    height: 3px;
+    width: 60px;
+}
+.detail-title .detail-button, .content-stylish .detail-button{
+    padding: 6px 35px;
+    color: #fff;
+    background: none;
+    border: 3px solid #fff;
+    border-radius: 0px;
+    font-size: 16px;
+    margin-top: 25px;
+}
+.getstart-form .form-detail{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    float: right;
+    margin-top: 145px;
+    border-radius: 5px;
+}
+.form-detail .form-detail-top{
+    background-color: rgb(230, 230, 230);
+    height: 60px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 23px;
+    border-radius: 4px 4px 0 0;
+}
+.form-detail-top .form-text-color{
+    color: rgb(255, 128, 0);
+}
+.form-detail-mid .form-control, .contactus-form .form-control{
+    margin: 35px auto;
+    padding: 12px 20px;
+    width: 80%;
+    border-bottom: 1px solid rgb(166, 166, 166) ;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0px;
+}
+.form-detail-bottom{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 128, 0);
+    border-radius: 0 0 4px 4px;
+}
+.content-tabs, .content-standard{
+    background-color: rgb(244, 244, 244);
+}
+.content-tabs-tab, .sublist-image, .standard-detail{
+    margin-top: 100px;
+    margin-left: 45px;
+}
+.content-tabs-tab  .tabs-box{
+    background: rgb(0, 0, 0);
+    width: 120px;
+    height: 120px;
+    margin: 2px 0;
+    border-radius: 3px;
+}
+.content-tabs-tab  .tabs-active{
+    background: rgb(255, 128, 0);
+}
+.content-tabs-detail{
+    margin-top: 100px;
+}
+.content-tabs-detail .tabs-text{
+    text-align: justify;
+    padding: 0 45px 0 0px;
+}
+.content-tabs-detail .tabs-button, .content-contactus .tabs-button{
+    padding: 10px 35px;
+    color: #fff;
+    background: rgb(255, 128, 0);
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
+}
+.content-contactus .tabs-button{
+    padding: 10px 25px;
+}
+.sublist-image .image, .standard-image .image{
+    width: 500px;
+    height: 330px;
+    box-shadow: 20px 20px 12px 0px rgba(186, 186, 186, 0.547);
+}
+.image .img{
+    width: 100%;
+}
+.sublist-section .line-organe, .standard-detail .line-organe{
+    background-color: rgb(255, 128, 0);
+    width: 100px;
+    height: 2px;
+    margin: 30px 0;
+}
+.bi-cloud-arrow-up, .bi-cloud-arrow-down, .bi-lightbulb, .bi-keyboard, .bi-lightning-fill{
+    fill: rgb(255, 128, 0);
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 128, 0);
+}
+.bi-lightbulb, .bi-keyboard, .bi-lightning-fill{
+    margin: 0 auto;
+    display: flex;
+
+}
+.standard-image .image-box{
+    margin-left: 90px;
+    margin-top: 100px;
+}
+.awesome-line{
+    margin: 0 auto;
+    background-color: rgb(255, 128, 0);
+    width: 100px;
+    height: 2px;
+}
+.content-thisisawesome-section{
+    padding-top: 5%;
+}
+.content-stylish{
+    height: 300px;
+    background-image: url(./assets/image-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.content-stylish .stylish-line{
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 2px;
+    margin: 0 auto;
+}
+.footer .social-media{
+    margin: 0 auto;
+
+}
+.social-media .bi-facebook,
+.social-media .bi-twitter,
+.social-media .bi-instagram,
+.social-media .bi-google,
+.social-media .bi-pinterest,
+.social-media .bi-wifi{
+    fill: rgb(228, 228, 228);
+    margin: 20px 5px;
+    padding: 3px;
+    justify-content: center;
+}
+
